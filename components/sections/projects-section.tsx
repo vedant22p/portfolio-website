@@ -14,7 +14,7 @@ export default function ProjectsSection() {
         "Vedant Pandey's Personal Portfolio is a modern, responsive web application designed to showcase his skills, projects, and professional journey. Built using React, Tailwind CSS, and TypeScript, the portfolio emphasizes clean design and efficient performance.",
       technologies: ["TypeScript", "JavaScript", "HTML", "React", "Tailwind CSS", "Vite", "PostCSS"],
       links: {
-        code: "https://github.com/vedant22p/Personal-Portfolio",
+        code: "https://github.com/vedant22p/portfolio-website",
         demo: null,
       },
       gradient: "from-emerald-500/10 to-emerald-600/10",

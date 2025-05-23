@@ -129,7 +129,7 @@ export default function ProjectsSection() {
                       {project.title}
                     </h3>
                     <div className="flex flex-wrap gap-2 mb-4">
-                      {project.technologies.slice(0, 4).map((tech, idx) => (
+                      {project.technologies.map((tech, idx) => (
                         <span
                           key={idx}
                           className="text-xs bg-blue-500/20 text-blue-400 px-3 py-1 rounded-full font-medium"
@@ -137,11 +137,6 @@ export default function ProjectsSection() {
                           {tech}
                         </span>
                       ))}
-                      {project.technologies.length > 4 && (
-                        <span className="text-xs bg-zinc-700 text-zinc-400 px-3 py-1 rounded-full font-medium">
-                          +{project.technologies.length - 4} more
-                        </span>
-                      )}
                     </div>
                   </div>
                   <div className="flex space-x-3">

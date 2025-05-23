@@ -8,11 +8,6 @@
 
 [https://vedantpandey.vercel.app/](https://vedantpandey.vercel.app/)
 
-<h2>Project Screenshots:</h2>
-
-<img src="https://drive.google.com/file/d/1XZnbVv0-KxnaeITRxuc_mCAT2HnNvqgG/view?usp=sharing" alt="project-screenshot" width="200" height="200/">
-
-<img src="https://drive.google.com/file/d/1nfwcPflJytDxIQKnNKA-LxRmdeVyOpTb/view?usp=sharing" alt="project-screenshot" width="200" height="200/">
 
   
   

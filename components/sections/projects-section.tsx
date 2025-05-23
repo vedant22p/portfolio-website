@@ -15,7 +15,7 @@ export default function ProjectsSection() {
       technologies: ["TypeScript", "JavaScript", "HTML", "React", "Tailwind CSS", "Vite", "PostCSS"],
       links: {
         code: "https://github.com/vedant22p/portfolio-website",
-        demo: null,
+        demo: "https://vedant22.vercel.app/",
       },
       gradient: "from-emerald-500/10 to-emerald-600/10",
       titleColor: "group-hover:text-emerald-400",

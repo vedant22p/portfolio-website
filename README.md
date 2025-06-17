@@ -6,7 +6,7 @@
 
 <h2>🚀 Demo</h2>
 
-[https://vedant22.vercel.app/](https://vedant2002.vercel.app/)
+[https://vedant2002.vercel.app/](https://vedant2002.vercel.app/)
 
 
   

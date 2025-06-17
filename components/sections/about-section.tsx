@@ -94,8 +94,8 @@ export default function AboutSection() {
         transition={{ duration: 0.3 }}
         className="text-white mb-8 text-sm leading-relaxed text-justify"
       >
-        I'm a AI Researcher from New Delhi, India, passionate about leveraging data to build intelligent systems that
-        solve real-world problems. With hands-on experience in Machine Learning, and Deep Learning, I've built and
+        I'm a AI Developer from New Delhi, India, passionate about leveraging data to build intelligent systems that
+        solve real-world problems. With hands-on experience in Machine Learning, Deep Learning, and Generative AI, I've built and
         deployed scalable AI applications and published impactful research in reputed Scopus-indexed conferences and
         journals.
         <br />
@@ -109,7 +109,7 @@ export default function AboutSection() {
       </motion.p>
 
       <motion.a
-        href="https://drive.google.com/file/d/1rQRc61ra_WV67X3WUgNETLMmi1vTzNRP/view?usp=sharing"
+        href="https://drive.google.com/file/d/1nQDhZ9TvRlUNBBzzAGPxq9hhI0V4XmAZ/view?usp=sharing"
         target="_blank"
         rel="noopener noreferrer"
         initial={{ opacity: 0, y: 20 }}

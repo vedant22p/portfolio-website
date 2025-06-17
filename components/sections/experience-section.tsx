@@ -9,6 +9,17 @@ export default function ExperienceSection() {
 
   const experience = [
     {
+      position: "AI Developer",
+      company: "ADG Online Solutions Pvt Ltd",
+      period: "June 2025 - Present",
+      location: "New Delhi, Delhi, India",
+      description:
+        "Working on a project with the Ministry of Jal Shakti, focusing on AI/ML solutions for water resource forecasting and climate analytics. Responsibilities include developing Python-based tools for data automation and visualization, designing data pipelines integrating sensor, satellite, and database sources, and building decision support systems for efficient water distribution. Also involved in handling geospatial data, incorporating GIS and remote sensing into workflows, collaborating with domain experts, documenting code, and staying updated on AI trends relevant to water and climate technology.",
+      status: "Ongoing",
+      dotColor: "bg-rose-500",
+      companyColor: "text-rose-500",
+    },
+    {
       position: "Data Science Intern",
       company: "ThinkSage",
       period: "January 2024 - March 2024",

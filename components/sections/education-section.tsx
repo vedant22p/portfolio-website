@@ -12,11 +12,11 @@ export default function EducationSection() {
       degree: "Integrated Masters in Technology in Artificial Intelligence",
       institution: "VIT Bhopal University",
       period: "2020 — 2025",
-      gpa: "8.72/10",
+      gpa: "8.95/10",
       location: "Bhopal, India",
       description:
         "Currently pursuing Integrated Masters in Technology with focus on Computer Science and Engineering.",
-      status: "Current",
+      status: "Completed",
       statusColor: "bg-emerald-500/20 text-emerald-400",
       dotColor: "bg-emerald-500",
     },

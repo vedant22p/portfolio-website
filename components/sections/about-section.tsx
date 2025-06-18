@@ -109,7 +109,7 @@ export default function AboutSection() {
       </motion.p>
 
       <motion.a
-        href="https://drive.google.com/file/d/1lI5-vIbGnTHcR6qaTVEEzwLNcY9Sv2_2/view?usp=sharing"
+        href="https://drive.google.com/file/d/1QeneI2-Jraf2HGGcQXMdeFTvCvpJHz1C/view?usp=sharing"
         target="_blank"
         rel="noopener noreferrer"
         initial={{ opacity: 0, y: 20 }}

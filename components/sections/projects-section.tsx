@@ -8,6 +8,29 @@ export default function ProjectsSection() {
   const { ref, controls } = useScrollAnimation({ once: false, amount: 0.1 })
 
   const projects = [
+      {
+      title: "AI-Powered Venture Capital Operating System for growX ventures ",
+      description:
+        "In the first project, Architected and deployed an end-to-end Venture Capital Operating System for an investing firm, on AWS, automating the entire investment lifecycle. The system features a Python backend with SQLAlchemy, Alembic, and PostgreSQL for data persistence, a dynamic Streamlit UI, and leverages AWS S3 for scalable document storage. In the second project, Engineered a multi-LLM data processing pipeline using Llama models (via Groq API) and frameworks like LangChain for intelligent submission analysis and contextual re-scoring. All structured data is synchronized in real-time with Streak CRM via REST APIs, enabling automated, data-driven performance tracking.",
+      technologies: ["Python", "SQLAlchemy", "PostgreSQL", "AWS S3", "LangChain", "Llama models", "REST APIs", "Streak CRM"],
+      links: {
+        demo: "https://growx.vc/"
+      },
+      gradient: "from-amber-500/10 to-amber-600/10",
+      titleColor: "group-hover:text-amber-400",
+    },
+    {
+      title: "AutoTabML",
+      description:
+        "Automated ML code generation for tabular data, reducing manual coding by 95%. Developed specialized agents for ML pipeline stages, improving development speed by 75%. Enhanced user productivity by 50% through integrated code execution and debugging capabilities.",
+      technologies: ["Llamba-70B", "Machine Learning", "LLM", "Hugging Face", "Streamlit", "NLP", "Deep Learning"],
+      links: {
+        code: "https://github.com/vedant22p/AutoTabML",
+        demo: "https://huggingface.co/spaces/singhtech/AutoTabML",
+      },
+      gradient: "from-violet-500/10 to-violet-600/10",
+      titleColor: "group-hover:text-violet-400",
+    },
     {
       title: "Personal Portfolio Website",
       description:
@@ -31,18 +54,6 @@ export default function ProjectsSection() {
       },
       gradient: "from-sky-500/10 to-sky-600/10",
       titleColor: "group-hover:text-sky-400",
-    },
-    {
-      title: "AutoTabML",
-      description:
-        "Automated ML code generation for tabular data, reducing manual coding by 95%. Developed specialized agents for ML pipeline stages, improving development speed by 75%. Enhanced user productivity by 50% through integrated code execution and debugging capabilities.",
-      technologies: ["Llamba-70B", "Machine Learning", "LLM", "Hugging Face", "Streamlit", "NLP", "Deep Learning"],
-      links: {
-        code: "https://github.com/vedant22p/AutoTabML",
-        demo: "https://huggingface.co/spaces/singhtech/AutoTabML",
-      },
-      gradient: "from-violet-500/10 to-violet-600/10",
-      titleColor: "group-hover:text-violet-400",
     },
     {
       title: "Elite CPU Scheduler",

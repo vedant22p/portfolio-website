@@ -1,11 +1,16 @@
-import { Mail, MapPin, Linkedin, Github, Code, Instagram } from "lucide-react"
+import { Mail, MapPin, Linkedin, Github, Code, Instagram, BookOpen } from "lucide-react"
 
 export default function Sidebar() {
   return (
     <aside className="bg-zinc-900 text-white w-full h-full flex flex-col justify-between border-r border-zinc-800">
       <div className="py-6 px-4 flex flex-col items-center">
-        <div className="w-32 h-32 rounded-full mb-4 border-4 border-amber-500 overflow-hidden shadow-lg shadow-amber-500/20">
-          <img src="/images/new-profile-photo.png" alt="Vedant Pandey" className="w-full h-full object-cover" />
+        <div className="w-32 h-32 rounded-full mb-4 border-4 border-amber-500 overflow-hidden shadow-lg shadow-amber-500/20 flex items-center justify-center bg-zinc-800">
+          <img
+            src="/images/new-profile-photo.png"
+            alt="Vedant Pandey"
+            className="w-full h-full object-cover object-center"
+            style={{ objectPosition: "center top" }}
+          />
         </div>
         <h1 className="text-3xl font-bold text-center bg-gradient-to-r from-amber-400 to-amber-600 text-transparent bg-clip-text">
           Vedant Pandey
@@ -61,6 +66,14 @@ export default function Sidebar() {
             label="LEETCODE"
             content="leetcode.com/u/user0352V"
             link="https://leetcode.com/u/user0352V/"
+          />
+
+          {/* Google Scholar */}
+          <ContactItem
+            icon={<BookOpen className="h-4 w-4 text-amber-500" />}
+            label="GOOGLE SCHOLAR"
+            content="scholar.google.com/citations"
+            link="https://scholar.google.com/citations?user=J4afVVUAAAAJ&hl=en"
           />
 
           {/* Instagram */}
